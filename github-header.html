@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Home</title>
+  <!-- <link rel="stylesheet" href="path/to/tailwind.css"> <\!-- 请替换为你的Tailwind CSS文件路径 -\-> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 添加自定义样式 */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #24292e;
+      color: white;
+      padding: 16px 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+
+    .search-box {
+      flex: 1;
+      margin-left: 16px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #586069;
+      border-radius: 5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: #58a6ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="container">
+      <a href="#" class="logo">GitHub</a>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search GitHub" class="search-input">
+      </div>
+
+      <div class="nav-links">
+        <a href="#" class="nav-link">Pull requests</a>
+        <a href="#" class="nav-link">Issues</a>
+        <a href="#" class="nav-link">Marketplace</a>
+        <a href="#" class="nav-link">Explore</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Home</title>
+  <!-- <link rel="stylesheet" href="path/to/tailwind.css"> <\!-- 请替换为你的Tailwind CSS文件路径 -\-> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 添加自定义样式 */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #24292e;
+      color: white;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    .repo {
+      border-bottom: 1px solid #e1e4e8;
+      padding: 16px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .repo-info {
+      flex: 1;
+    }
+
+    .repo-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .repo-description {
+      color: #586069;
+      margin-bottom: 8px;
+    }
+
+    .repo-meta {
+      color: #586069;
+    }
+
+    .repo-language {
+      color: #586069;
+    }
+
+    .repo-star {
+      color: #f6a623;
+      margin-right: 8px;
+    }
+
+    .repo-fork {
+      color: #586069;
+      margin-right: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>GitHub</h1>
+  </div>
+
+  <div class="container">
+    <div class="repo">
+      <div class="repo-info">
+        <div class="repo-name">Sample Repository</div>
+        <div class="repo-description">This is a sample repository for GitHub styling.</div>
+        <div class="repo-meta">
+          <span class="repo-language">HTML</span>
+          <span class="repo-star">★ 42</span>
+          <span class="repo-fork">Forked 12 times</span>
+        </div>
+      </div>
+      <button class="btn">Star</button>
+    </div>
+
+    <!-- Add more repositories as needed -->
+
+  </div>
+
+</body>
+</html>
